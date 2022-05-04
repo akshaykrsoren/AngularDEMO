@@ -1,0 +1,70 @@
+LIVE
+ddd
+https://scheduler.paseva.com/BraintreeApplication/Home/BraintreePay
+https://scheduler.paseva.com/BraintreeApplication/Home/EinsteinUserSubscription
+ 
+
+UAT
+
+
+
+http://ec2-52-38-33-252.us-west-2.compute.amazonaws.com/PatientMobileApplication/PatientMobileApplication.svc/ForgetPasswordMailPaseva/namaa@gmail.com
+https://pasevauat.com/BraintreeApplication/Home/BraintreePay
+https://pasevauat.com/BraintreeApplication/Home/EinsteinUserSubscription_Test
+
+ 
+ 
+tokencc_bh_k7yh97_t3wvsn_j8t6yd_5474m3_k7z
+PAY()
+
+{
+   "UserPaymentData":{
+      "FirstName":"Pritam",
+      "LastName":"rock",
+      "Company":"roy.co",
+      "Email":"asoren@solifetec.com",
+      "Fax":"614.555.5678",
+      "Phone":"8989876543",
+      "Website":"www.example.com",     
+      "PaymentMethodNonce":"fake-venmo-account-nonce",
+      "Amount":"28",
+      "ApplicationName":"EINSTEIN",
+      "PaymentPlatform":"MAC", 
+      "MedicalId":"1211",
+      "PatientRequestId":"0201" 
+   }
+}
+
+
+
+SUBSCROPTION()
+{
+   "UserSubscription":{
+      "FirstName":"Manish",
+      "LastName":"Dutt",
+      "Company":"kumar.company",
+      "Email":"asoren@solifetec.com",
+      "Fax":"614.555.5678",
+      "Phone":"8989876543",
+      "Website":"www.example.com",     
+      "PaymentMethodNonce":"fake-venmo-account-nonce",      
+      "ApplicationName":"EINSTEIN", 
+      "Amount":"25",
+      "SubscriptionDuration":"Monthly"  
+   }
+}
+
+
+
+
+http://localhost:55030/Home/GetTimeZone
+
+{
+   "UserSubscription":{
+            "TimeZone":"Eastern Daylight Time",
+      "Amount":"25",
+      "SubscriptionDuration":"Monthly"  
+   }
+}
+
+  "TimeZone":"Eastern Daylight Time",
